@@ -35,3 +35,6 @@
   * wrapped in Provider
   * rendered via Consumer 
   * shadow over appBar texts changes due to context
+* lodash (
+  * removeCoin 
+  * isInFavorites - asks if key is already contained within given array
