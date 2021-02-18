@@ -3,7 +3,7 @@ const theme = "dark";
 export const lightTheme = theme === "light";
 
 export const color = lightTheme ? "white" : "#061a44";
-export const color2 = lightTheme ? "white" : "##010e2c";
+export const color2 = lightTheme ? "white" : "#010e2c";
 export const color3 = lightTheme ? "#09f010" : "#42ff3a";
 
 if (lightTheme) {
@@ -12,7 +12,7 @@ if (lightTheme) {
 }
 
 export const lightBlueBackground = `background-color: ${color}`;
-export const backgroiundColor2 = `background-color: ${color2}`;
+export const backgroundColor2 = `background-color: ${color2}`;
 export const greenBackgroundColor = `background-color: ${color3}`;
 
 export const fontColorGreen = `color: #03A9F4`;

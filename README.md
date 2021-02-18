@@ -32,6 +32,7 @@
 * styled-components
 * css-grid
   * auto-fill v auto-fit
+  * place-self = align-self(y-axis) + justify-self(x-axis)
 * context (React.createContext)
   * wrapped in Provider
   * rendered via Consumer 
