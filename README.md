@@ -26,3 +26,7 @@
 * separate, navigatable link
 * links to github/linkedin profiles
 * coherent theme
+
+
+### Technologies
+* styled-components
