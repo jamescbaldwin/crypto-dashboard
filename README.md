@@ -30,3 +30,4 @@
 
 ### Technologies
 * styled-components
+* css-grid
