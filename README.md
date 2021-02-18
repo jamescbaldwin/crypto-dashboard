@@ -31,3 +31,7 @@
 ### Technologies
 * styled-components
 * css-grid
+* context (React.createContext)
+  * wrapped in Provider
+  * rendered via Consumer 
+  * shadow over appBar texts changes due to context
