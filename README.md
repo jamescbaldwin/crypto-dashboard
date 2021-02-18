@@ -31,6 +31,7 @@
 ### Technologies
 * styled-components
 * css-grid
+  * auto-fill v auto-fit
 * context (React.createContext)
   * wrapped in Provider
   * rendered via Consumer 
