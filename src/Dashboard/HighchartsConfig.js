@@ -1,4 +1,4 @@
-export default function() {
+export default function(historical) {
     return {
         title: {
             text: 'Comparative Coin Value Over Time'
@@ -11,6 +11,7 @@ export default function() {
                 text: 'Price'
             }
         },
+        xAxis: {type: "datetime"},
         legend: {
             layout: "vertical",
             align: "right",
@@ -24,22 +25,7 @@ export default function() {
                 pointStart: 2010
             }
         },
-        series: [{
-            name: 'Installation',
-            data: [43934, 52503, 57177, 69658, 119931, 137133, 154175]
-        },{
-            name: 'Manufacturing',
-            data: [5, 7, 3]
-        },{
-            name: 'Sales & Dist',
-            data: [34324, 48230, 234379, 80890, 54340, 992347, 432432]
-        },{
-            name: 'Project Development',
-            data: [null, null, 5, 7, 3]
-        },{
-            name: 'Other',
-            data: [22332, 85936, 232141, 727791, 119931, 576639, 994492]
-        }],
+        series: historical,
 
         responsiveness: {
             rules: [{

@@ -43,3 +43,5 @@
   * isInFavorites - asks if key is already contained within given array
 * fuzzy (search, filter)
 * Highcharts
+* moment
+  * date manipulation lib (add, subtract dates using interface)
