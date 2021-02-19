@@ -42,3 +42,4 @@
   * removeCoin 
   * isInFavorites - asks if key is already contained within given array
 * fuzzy (search, filter)
+* Highcharts
