@@ -37,6 +37,8 @@
   * wrapped in Provider
   * rendered via Consumer 
   * shadow over appBar texts changes due to context
-* lodash (
+* lodash 
+  * debounce function (prevents rapid-fire clicking, etc.)
   * removeCoin 
   * isInFavorites - asks if key is already contained within given array
+* fuzzy (search, filter)
