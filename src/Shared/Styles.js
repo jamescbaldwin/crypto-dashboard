@@ -1,6 +1,8 @@
-// const theme = "dark";
-const theme = "light";
+const theme = "dark";
+//const theme = "light";
 export const lightTheme = theme === "light";
+
+//time-based theme changes
 
 export const color = lightTheme ? "white" : "#061a44";
 export const color2 = lightTheme ? "white" : "#010e2c";
