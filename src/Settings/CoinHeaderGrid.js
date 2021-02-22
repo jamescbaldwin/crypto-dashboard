@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import {DeletableTile} from "../Shared/Tile";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const CoinHeaderGridStyled = styled.div`
     display:grid;
@@ -8,11 +9,12 @@ export const CoinHeaderGridStyled = styled.div`
 `
 
 export const CoinSymbol = styled.div`
-j   ustify-self: right;
+    justify-self: right;
+    padding-top: 10px;
 `
 
 const DeleteIcon = styled.div`
-    justify-right: self;
+    justify-self: right;
     display: none;
     ${DeletableTile}:hover & {
         display: block;
@@ -24,7 +26,10 @@ export default function({name, symbol, topSection}) {
     return <CoinHeaderGridStyled>
         <div> {name} </div>
         {topSection ? (
-            <DeleteIcon> X </DeleteIcon>
+            <DeleteIcon>  
+                X
+                {/* <FontAwesomeIcon icon={["fas", "trash"]} />  */}
+            </DeleteIcon>
         ) : (
         <CoinSymbol> {symbol} </CoinSymbol>
         )}

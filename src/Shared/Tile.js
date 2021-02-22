@@ -5,7 +5,8 @@ import {subtleBoxShadow, lightBlueBackground, greenBoxShadow, redBoxShadow} from
 export const Tile = styled.div`
     ${subtleBoxShadow}
     ${lightBlueBackground}
-    padding: 10px;
+    padding: 15px;
+    border-radius: 4px;
 `
 
 export const SelectableTile = styled(Tile)`

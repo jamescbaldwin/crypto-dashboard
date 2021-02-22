@@ -30,7 +30,7 @@ export default function(historical) {
         responsiveness: {
             rules: [{
                 condition: {
-                    maxWidth: 500
+                    maxWidth: 200
                 },
                 chartOptions: {
                     legend:{

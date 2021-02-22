@@ -3,19 +3,19 @@ import styled, {css} from "styled-components";
 import {AppContext} from "./AppProvider";
 
 const Logo = styled.div`
-font-size: 1.5em;
+font-size: 2.5em;
 `
 
 const Bar = styled.div`
     display: grid;
-    grid-template-columns: 180px auto 100px 100px;
+    grid-template-columns: 300px auto 100px 80px 80px ;
     margin-bottom: 40px;
 `
 
 const ControlButtonElement = styled.div`
     cursor: pointer;
     ${props => props.active && css`
-        text-shadow: 0px 0px 60px #03ff03;
+        text-shadow: 12px 12px 6px #515dff;
     `}
     ${props => props.hidden && css`
         display: none;
@@ -49,6 +49,12 @@ export default function() {
         <div/>
         <ControlButton active name="dashboard" />
         <ControlButton name="settings" />
+        <ControlButton name="signup" />
+        {/* <div>Crypto-Tracker</div>
+        <div>Signup</div>
+        <div>Dashboard</div>
+        <div>Settings</div> */}
+        
     </Bar>
     )
 }

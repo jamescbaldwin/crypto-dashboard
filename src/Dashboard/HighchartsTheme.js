@@ -2,17 +2,7 @@ import {lightTheme} from "../Shared/Styles";
 
 export default {  
         colors: [
-            '#61d936', 
-            '#552ccb', 
-            '#1163c9', 
-            '#7798BF', 
-            '#aaeeee',
-            '#ff0066', 
-            '#eeaaee', 
-            '#55BF3B', 
-            '#DF5353', 
-            '#7798BF', 
-            '#aaeeee'
+            '#515dff'
         ],
         chart: {
             backgroundColor: lightTheme ? "white" : '#061a44',

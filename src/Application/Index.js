@@ -7,6 +7,7 @@ import {AppProvider} from "./AppProvider";
 import Settings from "../Settings";
 import Content from "../Shared/Content";
 import Dashboard from "../Dashboard";
+// import Signup from "../Signup";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Content>
         <Settings />
         <Dashboard />
+        {/* <Signup /> */}
         </Content>
       </AppProvider>
     </AppLayout>
