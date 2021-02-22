@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Application/App.css"],"names":[],"mappings":"AAAA,KACI,wBAAgC,CAChC,aAAyB,CACzB,qCACJ","file":"main.f69c04a0.chunk.css","sourcesContent":["body {\n    background-color: rgb(2, 11, 34);\n    color: rgb(196, 195, 195);\n    font-family: 'Noto Sans JP', sans-serif;\n}"]}
