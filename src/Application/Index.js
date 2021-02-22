@@ -1,23 +1,28 @@
 import React, { Component } from "react";
 import "./App.css";
-import Greeting from "../Settings/Greeting";
 import AppLayout from "./AppLayout";
 import AppBar from "./AppBar";
 import {AppProvider} from "./AppProvider";
 import Settings from "../Settings";
 import Content from "../Shared/Content";
 import Dashboard from "../Dashboard";
-// import Signup from "../Signup";
+import LoginButton from "../Signup/LoginButton";
+import LogoutButton from "../Signup/LogoutButton";
+import Profile from "../Signup/Profile";
+
+
 
 function App() {
   return (
     <AppLayout> 
       <AppProvider>
         <AppBar />
+        <LoginButton/>
+        <LogoutButton/>
+        <Profile/>
         <Content>
         <Settings />
         <Dashboard />
-        {/* <Signup /> */}
         </Content>
       </AppProvider>
     </AppLayout>
