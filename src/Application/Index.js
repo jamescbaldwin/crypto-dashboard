@@ -17,13 +17,16 @@ function App() {
     <AppLayout> 
       <AppProvider>
         <AppBar />
-        <LoginButton/>
-        <LogoutButton/>
+        {/* <LoginButton/>
+        <LogoutButton/> */}
+        {/* PUT AUTH0 buttons with user JSON below app content */}
         <Profile/>
         <Content>
         <Settings />
         <Dashboard />
         </Content>
+        <LoginButton/>
+        <LogoutButton/>
       </AppProvider>
     </AppLayout>
 

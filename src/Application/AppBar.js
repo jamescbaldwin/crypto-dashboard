@@ -49,7 +49,7 @@ export default function() {
         <div/>
         <ControlButton active name="dashboard" />
         <ControlButton name="settings" />
-        <ControlButton name="signup" />
+        {/* <ControlButton name="signup" /> */}
         {/* <div>Crypto-Tracker</div>
         <div>Signup</div>
         <div>Dashboard</div>

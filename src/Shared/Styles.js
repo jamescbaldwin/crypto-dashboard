@@ -25,7 +25,7 @@ var time = today.getHours();
 console.log(today.getHours())
 var body =  document.body
 function colorTheme () {
-    if (time < 21) {
+    if (time < 18) {
         body.style.backgroundColor = `${color2}`
 } else  {
     body.style.backgroundColor = "#4F4BC5"
