@@ -9,6 +9,7 @@ import Dashboard from "../Dashboard";
 import LoginButton from "../Signup/LoginButton";
 import LogoutButton from "../Signup/LogoutButton";
 import Profile from "../Signup/Profile";
+import ProfileSO from "../Signup/Popover";
 
 
 
@@ -17,16 +18,13 @@ function App() {
     <AppLayout> 
       <AppProvider>
         <AppBar />
-        {/* <LoginButton/>
-        <LogoutButton/> */}
-        {/* PUT AUTH0 buttons with user JSON below app content */}
-        <Profile/>
         <Content>
         <Settings />
         <Dashboard />
         </Content>
-        <LoginButton/>
+        {/* <LoginButton/>
         <LogoutButton/>
+        <ProfileSO /> */}
       </AppProvider>
     </AppLayout>
 

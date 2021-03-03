@@ -5,18 +5,18 @@ export default {
             '#515dff'
         ],
         chart: {
-            backgroundColor: lightTheme ? "white" : '#061a44',
+            backgroundColor: lightTheme ? "#dcdcdc" : '#061a44',
             borderColor: '#000000',
             borderWidth: 0,
             className: 'dark-container',
-            plotBackgroundColor: '#061a44',
-            plotBorderColor: '#CCCCCC',
+            plotBackgroundColor: lightTheme ? "#dcdcdc" : '#061a44',
+            plotBorderColor: lightTheme ? "white" : '#CCCCCC',
             plotBorderWidth: 0
         },
         title: {
             style: {
-                color: '#C0C0C0',
-                font: 'bold 16px "Trebuchet MS", Verdana, sans-serif'
+                color: lightTheme ? "#555555" : '#C0C0C0',
+                font: 'bold 24px "Trebuchet MS", Verdana, sans-serif'
             }
         },
         subtitle: {
@@ -45,7 +45,7 @@ export default {
             }
         },
         yAxis: {
-            gridLineWidth: 0,
+            gridLineWidth: 0.25,
             gridLineColor: '#333333',
             labels: {
                 style: {
@@ -55,12 +55,12 @@ export default {
             lineColor: '#A0A0A0',
             minorTickInterval: null,
             tickColor: '#A0A0A0',
-            tickWidth: 1,
+            tickWidth: 0,
             title: {
                 style: {
-                    color: '#CCC',
+                    color: lightTheme ? "#555555" : '#CCC',
                     fontWeight: 'bold',
-                    fontSize: '12px',
+                    fontSize: '18px',
                     fontFamily: 'Trebuchet MS, Verdana, sans-serif'
                 }
             }
@@ -73,7 +73,7 @@ export default {
         },
         toolbar: {
             itemStyle: {
-                color: 'silver'
+                color: 'white'
             }
         },
         plotOptions: {
@@ -100,13 +100,13 @@ export default {
             }
         },
         legend: {
-            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            backgroundColor: lightTheme ? "#dcdcdc" : 'rgba(0, 0, 0, 0.5)',
             itemStyle: {
                 font: '9pt Trebuchet MS, Verdana, sans-serif',
                 color: '#A0A0A0'
             },
             itemHoverStyle: {
-                color: '#FFF'
+                color: lightTheme ? "blue" : '#FFF'
             },
             itemHiddenStyle: {
                 color: '#444'

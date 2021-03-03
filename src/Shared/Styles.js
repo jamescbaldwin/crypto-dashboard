@@ -1,37 +1,27 @@
-const theme = "dark";
-//const theme = "light";
+//const theme = "dark";
+const theme = "light";
 export const lightTheme = theme === "light";
 
-//time-based theme changes
 
-//blue
-export const color = lightTheme ? "white" : "#061a44";
+//blue tile color
+export const color = lightTheme ? "#dcdcdc" : "#061a44";
 
-//darker blue
-export const color2 = lightTheme ? "white" : "#010e2c";
+//darker blue page color
+export const color2 = lightTheme ? "#c1c1c1" : "#010e2c";
 
-//green
+//green/shadow color
 export const color3 = lightTheme ? "#09f010" : "#42ff3a";
 
 if (lightTheme) {
-    document.body.style.background = "#e1eaee";
-    document.body.style.color = "#061a44";
+    document.body.style.background = "#bbbbbb";
+    document.body.style.color = "rgb(142, 57, 57)";
+} else {
+    document.body.style.background = "rgb(2, 11, 34)";
+    document.body.style.color = "rgb(196, 195, 195)";
 }
 
 // dont forget to change
-var today = new Date();
 
-var time = today.getHours();
-console.log(today.getHours())
-var body =  document.body
-function colorTheme () {
-    if (time < 18) {
-        body.style.backgroundColor = `${color2}`
-} else  {
-    body.style.backgroundColor = "#4F4BC5"
-} 
-}
-colorTheme();
 
 export const lightBlueBackground = `background-color: ${color}`;
 export const backgroundColor2 = `background-color: ${color2}`;
@@ -50,3 +40,17 @@ export const fontSize2 = "font-size: 1.0em";
 export const fontSize3 = "font-size: .75em";
 
 export const textAlignCenter = "text-align: center;";
+
+// var today = new Date();
+
+// var time = today.getHours();
+// console.log(today.getHours())
+// var body =  document.body
+// function colorTheme () {
+//     if (time < 18) {
+//         body.style.backgroundColor = `${color2}`
+// } else  {
+//     body.style.backgroundColor = "#4F4BC5"
+// } 
+// }
+// colorTheme();

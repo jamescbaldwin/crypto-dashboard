@@ -5,7 +5,8 @@ import {fontSize1, greenBoxShadow, color3} from "../Shared/Styles";
 
 const ConfirmButtonStyled = styled.div`
     margin: 20px;
-    color: ${color3}
+    font-family: Monaco;
+    color: rgb(203, 73, 50);
     ${fontSize1}
     padding: 5px;
     cursor: pointer;

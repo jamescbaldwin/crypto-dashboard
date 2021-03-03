@@ -4,6 +4,18 @@ import './index.css';
 import App from './Application/index';
 import reportWebVitals from './reportWebVitals';
 import { Auth0Provider } from "@auth0/auth0-react";
+import { useHistory } from "react-router-dom";
+
+// const Auth0ProviderWithHistory = ({ children }) => {
+//   const domain = process.env.REACT_APP_AUTH0_DOMAIN;
+//   const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
+
+//   const history = useHistory();
+
+//   const onRedirectCallback = (appState) => {
+//     history.push(appState?.return || window.location.pathname);
+//   }
+// }
 
 const domain = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;

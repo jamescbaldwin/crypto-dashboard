@@ -4,7 +4,7 @@ import moment from "moment";
 
 const cc = require("cryptocompare");
 
-cc.setApiKey("");
+cc.setApiKey("83f53fd2a11df8481ebc717aa9937d0906383281416a6a1f6e7325d7fa8e5fc3");
 
 export const AppContext = React.createContext();
 

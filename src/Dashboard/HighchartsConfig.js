@@ -1,10 +1,10 @@
 export default function(historical) {
     return {
         title: {
-            text: 'Comparative Coin Value Over Time'
+            text: 'Cryptocurrency Value Over Time'
         },
         subtitle: {
-            text: "Source: thesolarfoundation.com"
+            text: "Data Courtesy of Cryptocompare API"
         },
         yAxis: {
             title: {
@@ -30,8 +30,8 @@ export default function(historical) {
         responsiveness: {
             rules: [{
                 condition: {
-                    maxWidth: 200,
-                    maxHeight: 300
+                    maxWidth: 100,
+                    maxHeight: 100
                 },
                 chartOptions: {
                     legend:{
